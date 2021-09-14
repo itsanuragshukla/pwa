@@ -1,0 +1,365 @@
+
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+ .super{
+ height:100vh;
+ width:100vw;
+ 
+ }
+   
+.main{
+    height:70vh;
+    width:90vw;
+    background:rgba(255,255,255,0.7);
+    filter:blur(0.5);
+    position:absolute;
+    left:5vw;
+    top:15vh;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:10px;
+    border:1px solid white;
+    overflow-x:hidden; 
+    
+    
+    
+}
+.logo{
+    height:20vh;
+    width:20vh;
+    border-radius:50%;
+    position:relative;
+    top:5vh;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid white;
+    position:relative;
+    z-index:99;
+  
+}
+.content{
+    background:;
+    height:60vh;
+    width:100%;
+    position:relative;
+    top:0vh;
+    border:0px solid white;
+    box-sizing:border-box;
+}
+.name{
+    height:7vh;
+    width:100%;
+    background:;
+    color:Black;
+    text-align:center;
+    border:0px solid black;
+    line-height:7vh;
+    font-size:3vh;
+    font-weight:800;
+    margin-top:10px;
+}
+.profession,.location,.about{
+    height:5vh;
+    width:100%;
+    background:;
+    color:black;
+    display:flex;
+    margin-top:10px;
+    justify-content:center;
+    align-items:center;
+    font-size:1.7vh;
+    border:0px solid black;
+    
+}
+.profession{
+    color:black;
+    font-weight:bold;
+}
+.location{
+    font-size:1.55vh;
+    color:#666;
+    font-weight:600;
+}
+.proflogo{
+    height:2.5vh;
+    margin:15px;
+    fill:green;
+}
+.about{
+    min-height:10vh;
+    max-height:20vh;
+    height:auto;
+    border:0px solid red;
+    font-size:2vh;
+    text-align:center;
+    padding:10px;
+    width:90%;
+    margin:auto;
+    margin-top:2vh;
+    box-sizing:border-box;
+    font-weight:500;
+}
+
+.contact{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:10vh;
+    position:absolute;
+    background:; 
+    position:absolute;
+    bottom:15vh;
+    }
+    
+   .contactbtn{
+   height:6vh;
+   width:auto;
+   background:green;
+   font-size:2vh;
+   color:white;
+   border:2px solid white;
+   border-radius:30px;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-weight:800;
+   
+   }
+   
+   .social{
+   width:80%;
+   height:7vh;
+   background:rgba(0,0,0,0);
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   border:0px solid red;
+   position:absolute;
+   bottom:5vh;
+   margin-left:10%;
+   }
+.social>a>svg{
+    height:3vh;
+    fill:#5b5b5b;
+    width:auto;
+    
+}
+
+.hr{
+    border-top:2px solid #6AB981;
+    width:80%;
+    margin:auto;
+}
+.logo>img{
+    height:20vh;
+    width:20vh;
+    border-radius:50%;
+}
+.swipable{
+height:60vh;
+width:200%;
+display:flex;
+position:absolute;
+top:10vh;
+flex-direction:row;
+left:0;
+border:0px solid green;
+transition:0.25s;
+
+}
+.closebtn,.closebtn>svg{
+height:4vh;
+width:4vh;
+
+}
+.closebtn{
+width:100%;
+border:0px solid red;}
+.closebtn>svg{
+    margin-left:38.5vw;
+    fill:green;}
+    
+    #form-div {
+    background:transparent;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width:100%;
+    height:70vh;
+    position: relative;
+    border-radius: 0px;
+    top:-10vh;
+    border:0px solid white;
+    
+    
+    
+    }
+    
+    /*Inputs styles*/
+    .montform , .feedback-input:focus{
+    
+    background: transparent;
+    border-color:green;
+    color: #fff;
+    outline: none;
+    
+    }
+    
+    
+    /* Icons ---------------------------------- */
+    .montform  #name{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+    background-size:4vh;
+    background-position:0 center;
+    background-repeat: no-repeat;
+    color:green;
+    padding-left:4vw;	
+    }
+    
+    
+    .montform  #email{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+    background-size:4vh;
+    background-position:0 center;
+    background-repeat: no-repeat;
+    color:green;
+    padding-left:4vw;
+    }
+    
+    .montform  #comment{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+    background-size:4vh;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    
+    color:green;
+    
+    }
+    
+    .montform  textarea {
+    width: 100%;
+    height: 20vh;
+    line-height:;
+    resize:vertical;
+    border:3px solid white;
+    color:white;
+    white-space: normal;
+    text-align:center;
+    -moz-text-align-last: center; /* Firefox 12+ */
+    text-align-last:center;
+    color:green;
+    padding-top:15px;
+    padding-left:4vw;
+    }
+    
+    .montform  input:hover, .montform  textarea:hover,
+    .montform  input:focus, .montform  textarea:focus {
+    background-color:rgba(0,0,0,0.3);
+    }
+    
+    .button-blue{
+    width: 50%;
+    cursor:pointer;
+    background-color: transparent;
+    color:green;
+    font-size:2vh;
+    height:6vh;
+    transition: all 0.3s;
+    border-radius:10px;
+    font-weight:1000;
+    
+    }
+    
+    .button-blue:hover{
+    background-color: rgba(0,0,0,0);
+    color:blue;
+    }
+    
+    .montform  .submit:hover {
+    color: transparent;
+    
+    }
+    
+    .button-blue{
+    background:transparent;
+    }
+    .submit{
+    border:2px solid white;
+    border-radius:10px;
+    overflow:hidden;
+    color:green;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    height:6vh;
+    
+    }
+    .submit>button{
+    color:green;
+    border:none;
+    font-weight:1000;
+    width:100%;
+    }
+    
+    .montform{
+    
+    width:70vw;
+    color:#fff;
+    font-weight:500;
+    font-size:2vh;
+    border-radius: 10px;
+    line-height:1.5vh;
+    width:90%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: transparent;
+    border: 0px solid #3498db;
+    color: #fff;
+    outline: none;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    height:60vh;
+    position:relative;
+    bottom:-5vh;
+    }
+    .feedback-input{
+    color:#fff;
+    font-weight:500;
+    font-size:2vh;
+    border-radius: 10px;
+    line-height:;
+    background-color: transparent;
+    width:100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    height:7vh;
+    text-align:center;
+    padding-left:4vh;
+    margin:0vh;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:green ;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+    color:green;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+    color:green;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+    color:#0f0 ;
+    }
+    
+    *{
+    font-family: 'Baloo Bhai 2';
+    }
+    
+   /*        img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+                display: none; }*/
